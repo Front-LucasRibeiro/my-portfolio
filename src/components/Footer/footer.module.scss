@@ -1,0 +1,17 @@
+@import '../../sass/global-styles/variables';
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $main-color;
+    height: 46px;
+    bottom: 0;
+    width: 100%;
+    padding: 0 18px;
+
+    p{
+        color: $sec-color;
+        font-size: $f14;
+    }
+}

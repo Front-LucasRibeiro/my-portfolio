@@ -1,0 +1,72 @@
+@import '../../sass/global-styles/variables';
+
+.card {
+  width: 18rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+  text-align: center;
+
+  &__linkSaibaMais{
+    font-weight: 600;
+    color: $main-color;
+  }
+
+  &__linkPage{
+    text-decoration: none;
+  }
+
+  &__price{
+    text-align: center;
+    strong{
+      color: #477a3a;
+      font-size: $f17;
+    }
+  }
+
+  &__tags{
+    display: none;
+  }
+
+  &__image{
+    height: 180px;
+    width: 100%;
+    display: block;
+  }
+  &__body{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    font-size: $f14;
+    color: $cor-text;
+  }
+  &__description{
+    margin: 0 0 12px;
+    text-align: center;
+  }
+  &__link{
+    text-decoration: none;
+    color: $sec-color;
+    background-color: $main-color;
+    border-radius: 6px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin: 0 18px 22px 18px;
+  }
+}
