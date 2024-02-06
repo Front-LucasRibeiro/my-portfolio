@@ -19,7 +19,8 @@ const getList = () => {
       link: "http://presentescasamento.com.br/",
       github: "https://github.com/Front-LucasRibeiro/presentes-casamento",
       tags: ["WooCommerce","WordPress"],
-      price: "R$ 35,00"
+      price: "R$ 35,00",
+      page: "/presentes-casamento"
     },
     {
       image: "/assets/fabrica-atacado.jpg",
@@ -27,7 +28,8 @@ const getList = () => {
       link: "http://fabricanoatacado.com.br/",
       github: "https://github.com/Front-LucasRibeiro/fabrica-no-atacado",
       tags: ["WooCommerce","WordPress"],
-      price: "R$ 35,00"
+      price: "R$ 35,00",
+      page: "/fabrica-atacado"
     },
     {
       image: "/assets/camisetasmix.jpg",
@@ -35,7 +37,8 @@ const getList = () => {
       link: "http://camisetasmix.com.br/",
       github: "https://github.com/Front-LucasRibeiro/camisetas-mix",
       tags: ["WooCommerce","WordPress"],
-      price: "R$ 35,00"
+      price: "R$ 35,00",
+      page: "/camisetas-mix"
     },
     {
       image: "/assets/shoptecnologia.jpg",
@@ -43,7 +46,8 @@ const getList = () => {
       link: "https://shoptecnologia.com.br/",
       github: "https://github.com/Front-LucasRibeiro/shoptecnologia",
       tags: ["WooCommerce","WordPress"],
-      price: "R$ 35,00"
+      price: "R$ 35,00",
+      page: "/shop-tecnologia"
     }
   ]
 
@@ -57,7 +61,7 @@ const ListCards = () => {
         return (
           <Card
             projeto={projeto}
-            key={index}
+            index={index}
           />
         )
       })}

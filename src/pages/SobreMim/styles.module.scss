@@ -1,0 +1,79 @@
+@import '../../sass/global-styles/variables';
+
+.topo{
+  max-width: 1024px;
+  margin: 78px auto;
+  display: flex;
+  padding: 0 12px;
+  box-sizing: border-box;
+  min-height: 68vh;
+
+  @media (max-width:767px){
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__sobre{
+    margin-left: 28px;
+
+    @media (max-width:767px){
+      margin-left: 0;
+    }
+
+    h1{
+      font-size: 32px;
+      color: #344767;
+      margin: 18px 0 32px 0;
+    }
+
+    h2{
+      color: #666;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    p{
+      color: $cor-text;
+      margin-bottom: 78px;
+      @media (max-width:767px){
+        font-size: 15px;
+      }
+    }
+
+    li{
+      margin-bottom: 18px;
+
+      @media (max-width:767px){
+        display: flex;
+        flex-direction: column;
+      }
+
+      strong{
+        margin-right: 6px;
+      }
+
+      a{
+        color: $main-color;
+
+        @media (max-width:767px){
+          overflow-wrap: break-word;
+          font-size: 13px;
+        }
+
+        &:hover{
+          color: #000;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &__foto{
+    img{
+      width: 210px;
+      height: 210px;
+    }
+  }
+}
+
+

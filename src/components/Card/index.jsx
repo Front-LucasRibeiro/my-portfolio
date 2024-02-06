@@ -1,11 +1,11 @@
 import style from 'components/Card/card.module.scss';
 import { Link, useResolvedPath } from "react-router-dom";
 
-const Card = ({ projeto }) => {
+const Card = ({ projeto, index}) => {
   const tamanho = projeto.tags.length
 
   return (
-    <li className={style.card}>
+    <li className={style.card} key={index}>
 
       <Link to={projeto.page} className={style.card__linkPage}>
         <img className={style.card__image} src={projeto.image} alt="" />
