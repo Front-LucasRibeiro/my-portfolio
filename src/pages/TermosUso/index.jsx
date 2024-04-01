@@ -29,11 +29,11 @@ function TermosDeUso() {
 
         <h2>7. Contato</h2>
         <p>
-          Se você tiver alguma dúvida ou preocupação sobre estes termos, entre em contato conosco através do e-mail: <a href="mailto:contato@sistemasflex.com.br" target="_blank">contato@sistemasflex.com.br</a>.
+          Se você tiver alguma dúvida ou preocupação sobre estes termos, entre em contato conosco através do e-mail: <a href="mailto:contato@sistemasflex.com.br" target="_blank" rel="noreferrer noopener">contato@sistemasflex.com.br</a>.
         </p>
 
         <p>
-          <strong>Horário de atendimento:</strong> de segunda à sexta dsa 09h00 às 18h00 e sábado até às 14h00.
+          <strong>Horário de atendimento:</strong> de segunda à sexta das 09h00 às 18h00 e sábado até às 14h00.
         </p>
 
         <p>Última atualização: 01/04/2024</p>

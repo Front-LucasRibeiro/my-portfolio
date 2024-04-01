@@ -43,7 +43,7 @@ function ShopTecnologia() {
 
               <p>Assinar via Pix:</p>
 
-              <a href="https://nubank.com.br/cobranca/JczgQ8sTgxbmyfs" target='_blank'>PIX</a>
+              <a href="https://nubank.com.br/cobranca/JczgQ8sTgxbmyfs" target='_blank' rel="noreferrer noopener">PIX</a>
 
               <p>Chave CPF/CNPJ: 37810374000182</p>
             </li>
@@ -97,13 +97,13 @@ function ShopTecnologia() {
 
               <p>Assinar via Pix:</p>
 
-              <a href="https://nubank.com.br/cobranca/ITUeU8a5KSbmyfs" target='_blank'>PIX</a>
+              <a href="https://nubank.com.br/cobranca/ITUeU8a5KSbmyfs" target='_blank' rel="noreferrer noopener">PIX</a>
 
               <p>Chave CPF/CNPJ: 37810374000182</p>
             </li>
           </ul>
 
-          <InfoContratar />
+          <InfoContratar formulario="https://docs.google.com/forms/d/e/1FAIpQLSeoWnr6UtrMq4a6Fxt1xEYp2WNpLP8BK-j8HMXMIdb09ffzlw/viewform?usp=sf_link" />
         </section>
       </main>
     </div>

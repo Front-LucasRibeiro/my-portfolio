@@ -114,7 +114,7 @@ function BarberShop() {
 
           </ul>
 
-          <InfoContratar />
+          <InfoContratar formulario="https://docs.google.com/forms/d/e/1FAIpQLSdQ8E8sjsw5rlqAtEx1HUCJKb2NFEnWpifj2sNedk7hha4NaQ/viewform?usp=sf_link" />
         </section>
       </main>
     </div>

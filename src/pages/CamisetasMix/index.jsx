@@ -103,7 +103,7 @@ function CamisetasMix() {
             </li>
           </ul>
 
-          <InfoContratar />
+          <InfoContratar formulario="https://docs.google.com/forms/d/e/1FAIpQLSeoWnr6UtrMq4a6Fxt1xEYp2WNpLP8BK-j8HMXMIdb09ffzlw/viewform?usp=sf_link" />
         </section>
       </main>
     </div>
