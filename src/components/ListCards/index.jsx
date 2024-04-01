@@ -5,13 +5,13 @@ import style from "components/ListCards/listCard.module.scss";
 const getList = () => {
   let list = [
     {
-      image: "/assets/barbershop.jpg",
-      description: "Sistema de barbearia para controle de agendamentos de clientes",
-      link: "",
+      image: "/assets/barbershop2.jpg",
+      description: "Sistema de agendamentos de serviços",
+      link: "https://agendaraqui.com.br/",
       github: "https://github.com/Front-LucasRibeiro/barber-shop",
       tags: ["WooCommerce","WordPress"],
       price: "R$ 59,90",
-      page: "/sistema-barber-shop"
+      page: "/sistema-agendar-aqui"
     },
     {
       image: "/assets/site-presentes-casamento.jpg",
@@ -22,15 +22,15 @@ const getList = () => {
       price: "R$ 35,00",
       page: "/presentes-casamento"
     },
-    {
-      image: "/assets/fabrica-atacado.jpg",
-      description: "Loja virtual para a Loja Fabrica no Atacado",
-      link: "http://fabricanoatacado.com.br/",
-      github: "https://github.com/Front-LucasRibeiro/fabrica-no-atacado",
-      tags: ["WooCommerce","WordPress"],
-      price: "R$ 35,00",
-      page: "/fabrica-atacado"
-    },
+    // {
+    //   image: "/assets/fabrica-atacado.jpg",
+    //   description: "Loja virtual para a Loja Fabrica no Atacado",
+    //   link: "http://fabricanoatacado.com.br/",
+    //   github: "https://github.com/Front-LucasRibeiro/fabrica-no-atacado",
+    //   tags: ["WooCommerce","WordPress"],
+    //   price: "R$ 35,00",
+    //   page: "/fabrica-atacado"
+    // },
     {
       image: "/assets/camisetasmix.jpg",
       description: "Loja virtual para a loja de Camisetas Mix",

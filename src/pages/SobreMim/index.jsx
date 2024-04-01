@@ -8,31 +8,25 @@ function Sobre() {
           <img src="./assets/lucas-maranho.jpeg" alt="Lucas Lima Ribeiro Maranho" />
         </div>
         <div className={s.topo__sobre}>
-          <h1>Sobre mim</h1>
+          <h1>Desenvolvedor</h1>
 
           <h2>Lucas Maranho</h2>
 
-          <p>Desenvolvedor Front-end com experiência em React.js, JavaScript, JQuery. Experiência em e-commerce nas plataformas Tray, TrayCorp FBits, NuvemShop, Jet, VTEX, LINX, Wordpress. Formado em Análise e Desenvolvimento de Sistemas e Sistemas para Internet.</p>
+          <p>
+            Desenvolvedor web especializado na criação de sistemas, lojas virtuais e blogs dinâmicos. Domínio em HTML, CSS, JavaScript e PHP, com experiência em frameworks como WordPress e plataformas Tray, TrayCorp FBits, NuvemShop, Jet, VTEX, LINX, WooCommerce. Comprometido com a excelência e atualizado com as últimas tendências tecnológicas.
+          </p>
+
+          {/* <p>Desenvolvedor Front-end com experiência em React.js, JavaScript, JQuery. Experiência em e-commerce nas plataformas Tray, TrayCorp FBits, NuvemShop, Jet, VTEX, LINX, Wordpress, WooCommerce. Formado em Análise e Desenvolvimento de Sistemas e Sistemas para Internet.</p> */}
 
           <h2>Contato</h2>
 
-          <ul>
-            <li>
-              <strong>E-mail:</strong>
-              <a href="mailto:lksribeiro2014@gmail.com" target="_blank">lksribeiro2014@gmail.com</a>
+          <ul className={s.contato}>
+            <li className={s.contato__email}>
+              <a href="mailto:lksribeiro2014@gmail.com" target='_blank'>lksribeiro2014@gmail.com</a>
             </li>
-            <li>
-              <strong>LinkedIn:</strong>
-              <a href="https://www.linkedin.com/in/devlucasribeiro/" target="_blank">https://www.linkedin.com/in/devlucasribeiro/</a>
-            </li>
-            <li>
-              <strong>WhatsApp:</strong>
-              <a href="https://api.whatsapp.com/send?phone=5511964914546" target="_blank">(11) 96491-4546</a>
-            </li>
-            <li>
-              <strong>GitHub:</strong>
-              <a href="https://github.com/Front-LucasRibeiro" target="_blank">https://github.com/Front-LucasRibeiro</a>
-            </li>
+            <li className={s.contato__linkedin}><a href="https://www.linkedin.com/in/devlucasribeiro/" target='_blank'>LinkedIn</a></li>
+            <li className={s.contato__whatsapp}><a href="https://api.whatsapp.com/send?phone=5511964914546" target='_blank'>WhatsApp</a></li>
+            <li className={s.contato__github}><a href="https://github.com/Front-LucasRibeiro" target='_blank'>GitHub</a></li>
           </ul>
         </div>
       </div>

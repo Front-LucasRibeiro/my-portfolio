@@ -7,17 +7,19 @@ import PresentesCasamento from 'pages/PresentesCasamento';
 import FabricaAtacado from 'pages/FabricaAtacado';
 import CamisetasMix from 'pages/CamisetasMix';
 import ShopTecnologia from 'pages/ShopTecnologia';
+import TermosDeUso from 'pages/TermosUso';
 
 function Router() {
   return (
     <Routes>
       <Route index path="/" element={<Home />} />
-      <Route path="/sobre-mim" element={<Sobre />} />
-      <Route path="/sistema-barber-shop" element={<BarberShop />} />
+      <Route path="/contato" element={<Sobre />} />
+      <Route path="/sistema-agendar-aqui" element={<BarberShop />} />
       <Route path="/presentes-casamento" element={<PresentesCasamento />} />
-      <Route path="/fabrica-atacado" element={<FabricaAtacado />} />
+      {/* <Route path="/fabrica-atacado" element={<FabricaAtacado />} /> */}
       <Route path="/camisetas-mix" element={<CamisetasMix />} />
       <Route path="/shop-tecnologia" element={<ShopTecnologia />} />
+      <Route path="/termos-de-uso" element={<TermosDeUso />} />
     </Routes>
   )
 }

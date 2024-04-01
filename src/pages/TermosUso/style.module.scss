@@ -1,0 +1,24 @@
+@import '../../sass/global-styles/variables';
+
+.main__termos {
+  max-width: 768px;
+  display: block;
+  margin: 48px auto;
+  text-align: center;
+  padding: 0 14px;
+
+  a{
+    color: $main-color;
+  }
+
+
+  h1,
+  h2 {
+    color: #344767;
+  }
+
+  p {
+    color: #666;
+  }
+}
+

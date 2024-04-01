@@ -23,27 +23,27 @@ function Header() {
     setPath([])
 
     if (e.target.name === '/projetos') setPath([{ "projetos": "ativo" }])
-    if (e.target.name === '/sobre-mim') setPath([{ "sobreMim": "ativo" }])
+    if (e.target.name === '/contato') setPath([{ "contato": "ativo" }])
   }
 
   useEffect( () => {
     if (urlPath === '/') setPath([{ "projetos": "ativo" }])
-    if (urlPath === '/sobre-mim') setPath([{ "sobreMim": "ativo" }])
+    if (urlPath === '/contato') setPath([{ "contato": "ativo" }])
   }, [])
 
   return (
     <header className={s.header}>
-      <h1 className={s.header__title}><Link to={'/'} name="/projetos" onClick={setRouteActive}>Front End Developer Portfólio</Link></h1>
+      <h1 className={s.header__title}><Link to={'/'} name="/projetos" onClick={setRouteActive}>Sistemas Flex</Link></h1>
       <span className={s.menu} onClick={openMenu}>Menu</span>
 
       <div data-tipo={changeMenu}>
         <nav className={s.header__navigation}>
           <ul>
             <li className={path[0]?.projetos}>
-              <Link to={'/'} name="/projetos" onClick={setRouteActive} >Projetos</Link>
+              <Link to={'/'} name="/projetos" onClick={setRouteActive} >Serviços</Link>
             </li>
-            <li className={path[0]?.sobreMim}>
-              <Link to={'/sobre-mim'} name="/sobre-mim" onClick={setRouteActive} >Sobre mim</Link>
+            <li className={path[0]?.contato}>
+              <Link to={'/contato'} name="/contato" onClick={setRouteActive} >Contato</Link>
             </li>
           </ul>
         </nav>
