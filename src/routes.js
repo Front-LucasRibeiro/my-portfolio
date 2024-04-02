@@ -21,7 +21,7 @@ function Router() {
       <Route path="/camisetas-mix" element={<CamisetasMix />} />
       <Route path="/shop-tecnologia" element={<ShopTecnologia />} />
       <Route path="/termos-de-uso" element={<TermosDeUso />} />
-      <Route path="/planos-ativos-c-145135764415" element={<Planos />} />
+      <Route path="/planos-ativos-c145135764415" element={<Planos />} />
     </Routes>
   )
 }
