@@ -24,7 +24,10 @@ function BarberShop() {
         </section>
 
 
-        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/Cw4lD3IhYbg?si=h4386z9UHBvM5IDZ" title="YouTube video player" frameborder="0" allowfullscreen="allowfullscreen"></iframe> */}
+        <video width="560" height="315" controls="controls">
+          <source src="/assets/apresentacao-agendar-aqui.mp4" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
 
 
         <section className={style.planos}>
